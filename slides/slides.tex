@@ -1,6 +1,7 @@
 \documentclass{beamer}
 \usepackage{beamerthemeshadow}
 \usepackage{graphicx}
+\usepackage[absolute,overlay]{textpos}
 \begin{document}
 \title{Version control with git}
 \author{Eike Mueller, University of Bath}
@@ -34,7 +35,7 @@
   \item Keep track of changes (who introduced feature X and why?)
   \item \textbf{Try out changes} and \textbf{revert} to working version (``undo''-button)
   \item Work on project on \textbf{different machines}
-  \item Simplifies \textbf{bug hunting}
+  \item Simplifies \textbf{debugging}
   \end{itemize}
   \vspace{2ex}
   \textbf{\Large What's the catch?}
@@ -42,6 +43,9 @@
     \item Have to learn a few commands to interact with git
     \item Have to be organised
   \end{itemize}
+  \begin{textblock}{1.0}(11,8)
+    \includegraphics[width=3.5cm]{bughunting.png}
+  \end{textblock}
 \end{frame}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
