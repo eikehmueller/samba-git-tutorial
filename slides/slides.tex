@@ -28,20 +28,21 @@
 
 \begin{frame}
   \frametitle{Version control}
-  \textbf{\Large What does it give us?}
+  \textbf{\Large Benefits of Version control}
   \begin{itemize}
   \item Systematic and controlled \textbf{Backup}
   \item \textbf{Collaborate}: work on same document simultaneously
-  \item Keep track of changes (who introduced feature X and why?)
+  \item Keep \textbf{track} of \textbf{changes} (who introduced feature X and why?)
   \item \textbf{Try out changes} and \textbf{revert} to working version (``undo''-button)
   \item Work on project on \textbf{different machines}
   \item Simplifies \textbf{debugging}
+  \item \textbf{Reproducibility}
   \end{itemize}
   \vspace{2ex}
   \textbf{\Large What's the catch?}
   \begin{itemize}
     \item Have to learn a few commands to interact with git
-    \item Have to be organised
+    \item Enforces organised approach
   \end{itemize}
   \begin{textblock}{1.0}(11,8)
     \includegraphics[width=3.5cm]{bughunting.png}
@@ -56,9 +57,12 @@
   \begin{itemize}
   \item \textbf{Source code} (matlab, Fortran, C, Python, \dots)
   \item \textbf{LaTeX} (your thesis!)
-  \item Results
-  \item \textbf{Any text files}\footnotemark
+  \item Raw \textbf{results} (e.g. CSV files with numerical values)
+  \item \textbf{Any text} files\footnotemark
   \end{itemize}
+  \vspace{4ex}
+  \textbf{\Large Reproducibility:}
+  Link results to particular code version
   \footnotetext{Binary files work as well, but harder to track changes}
 \end{frame}
 
@@ -91,15 +95,19 @@
   \frametitle{git}
   \textbf{\Large Why git?}
   \begin{itemize}
-  \item \textbf{de-facto} standard now (supersedes subversion, CVS)
+  \item \textbf{de-facto} standard now (supersedes subversion, CVS, \dots)
   \item Several nice features:
     \begin{itemize}
-      \item Work remotely (distributed system)
-      \item Simple and lightweight \textbf{branching}
+      \item Work remotely (distributed system allows \textbf{offline commits})
+      \item Simple and lightweight \textbf{branching}\\$\Rightarrow$ encourages experimentation
       \item Selective commits (\textbf{staging} area)
       \item Very \textbf{powerful}
     \end{itemize}
-  \item Not the easiest system to learn, so we'll only cover the basics
+  \item Not the easiest system to learn
+    \begin{itemize}
+      \item We'll only cover the basics here
+      \item Lots of online resources
+    \end{itemize}
   \end{itemize}
   \vspace{2ex}
   \textbf{\Large Documentation}
@@ -113,21 +121,21 @@
 
 \begin{frame}
   \frametitle{Overview}
-  \textbf{\Large Session 1} (Basics)
+  \textbf{\Large Tue: Session 1} (Basics)
   \begin{itemize}
   \item Creating a git repository
   \item Tracking changes
   \item Exploring history
   \end{itemize}
   \vspace{2ex}
-  \textbf{\Large Session 2} (Collaborating)
+  \textbf{\Large Thu: Session 2} (Collaborating)
   \begin{itemize}
   \item Working with remotes (github)
   \item Collaborating and resolving conflicts
   \item Wrapup and advanced concepts (branching, merging, \dots)
   \end{itemize}
   \vspace{2ex}
-  All material is based of Software Carpentry \texttt{http://git-scm.com/docs}
+  All material used is based on Software Carpentry webpage \texttt{http://software-carpentry.org/}
 \end{frame}
 
 \end{document}
