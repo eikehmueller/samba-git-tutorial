@@ -138,4 +138,89 @@
   All material used is based on Software Carpentry webpage \texttt{http://software-carpentry.org/}
 \end{frame}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+  \frametitle{${}^{}$}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+  \frametitle{Wrapup}
+  \textbf{\Large Summary}
+  \begin{itemize}
+    \item Version control with git
+    \item It pays off even for small projects
+    \item Small number of commands 
+    \item There are graphical tools (e.g. SourceTree for Mac/Win)
+    \item Other hosting sites: BitBucket
+  \end{itemize}
+  \textbf{\Large More details}
+  \begin{itemize}
+  \item Git book: \texttt{http://git-scm.com/book/en/v2}
+  \item Reference: \texttt{http://git-scm.com/docs}
+  \end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+  \frametitle{Advanced topics}
+  \textbf{\Large Advanced topics}
+  \begin{itemize}
+    \item Tags
+    \item What actually is a commit?
+    \item Branching and merging, the rebase command
+    \item Rewriting history
+    \item Pull requests
+    \item Forking repositories
+  \end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+  \frametitle{Branches}
+  \textbf{\Large A Quick glance at branches}\\[1ex]
+  Branches allow organised simultaneous development by collecting related 
+  commits\\
+  \begin{minipage}{0.45\linewidth}
+  \begin{itemize}
+    \item Bugfix
+    \item New untested feature
+    \item Master branch (guaranteed to work)
+  \end{itemize}
+  Usually:
+  \begin{equation*}
+    \text{\textbf{1 concept/feature}} = \text{\textbf{1 branch}}
+  \end{equation*}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.45\linewidth}
+  \begin{center}
+    \includegraphics[width=0.95\linewidth]{topic-branches-1.png}
+  \end{center}
+  {\footnotesize \texttt{https://git-scm.com/book}}
+  \end{minipage}\\[2ex]
+  git branch = \textbf{lightweight} pointer
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+  \frametitle{Branches}
+  \textbf{\Large Merge and resolve conflicts}\\[1ex]
+  \begin{itemize}
+    \item Basic merge and rebase
+    \item Pull requests on github and BitBucket
+    \item Code review
+    \item Can limit access to master branch
+  \end{itemize}
+  \begin{center}
+    \includegraphics[width=0.9\linewidth]{basic-merging-2.png}\\
+    {\footnotesize \texttt{https://git-scm.com/book}}
+  \end{center}
+\end{frame}
+
 \end{document}
