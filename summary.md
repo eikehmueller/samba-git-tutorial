@@ -48,3 +48,9 @@ to join the meeeting, go to [channel on Mircosoft Teams](https://teams.microsoft
 * [github](https://www.github.com)
 * [git book](https://git-scm.com/book)
 * [git reference](https://git-scm.com/docs)
+
+## git summary in one diagram
+<img src="slides/git_overview.svg"
+     alt="git: schematic overview"     
+     style="float"
+     width="60%"/>
