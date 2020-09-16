@@ -28,7 +28,7 @@ to join the meeeting, go to [channel on Mircosoft Teams](https://teams.microsoft
 * [UNIX/Linux tutorials](https://arc-lessons.github.io/intro-linux/00_schedule.html) (use this for sessions S1a & S1b)
 * [git tutorials](<https://arc-lessons.github.io/version-control-git/00_schedule.html>) (use this for sessions S2a & S2b)
 * [slides Unix/Linux](https://people.bath.ac.uk/em459/)
-* [slides git](https://people.bath.ac.uk/em459/)
+* [slides git](https://people.bath.ac.uk/em459/samba_training/slides/slides_git.pdf)
 
 ## Cloud-server for interactive exercises
 [Jupyterhub server](https://dev.jupyterhub.bath.ac.uk)
